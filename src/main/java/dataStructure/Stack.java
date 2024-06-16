@@ -11,7 +11,7 @@ public class Stack {
 
 
     //parecido com a lista ligada
-    class Node {
+    public class Node {
         //aqui vamos amazenar um valor
         int value;
         // apontando para o proximo nó (ou caixinha)
@@ -20,6 +20,10 @@ public class Stack {
         // construtor para receber o valor do nó
         Node(int value) {
             this.value = value;
+        }
+
+        public int getValue() {
+            return value;
         }
     }
 
